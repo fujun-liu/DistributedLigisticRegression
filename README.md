@@ -18,7 +18,7 @@ Goolgle Protobuf (https://github.com/google/protobuf).
 
 The server side code looks like this:
 
-'''c++
+'''c
 
 while (true) {
 		std::cout << "waiting for request ..." << std::endl;
