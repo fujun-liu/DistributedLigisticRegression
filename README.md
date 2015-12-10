@@ -19,8 +19,9 @@ Goolgle Protobuf (https://github.com/google/protobuf).
 The server side code looks like this:
 
 '''
+	
 	while (true) {
-	        zmq::message_t request;
+		zmq::message_t request;
 	        //  Wait for next request from client
 	        socket->recv (&request);
 			// get the request and read them into string
