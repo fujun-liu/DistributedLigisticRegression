@@ -1,0 +1,5 @@
+# set learning rate
+alpha = 1.0
+
+# weight num
+weightNum = 24

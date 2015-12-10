@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="run_server.cpp" />
+    <ClCompile Include="zmqprotobuf.pb.cc" />
+    <ClCompile Include="zmqServer.cpp" />
+    <ClCompile Include="..\utilities\paras.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="zmqServer.h" />
+    <ClInclude Include="..\utilities\paras.h" />
+    <ClInclude Include="..\utilities\ps_constants.h" />
+  </ItemGroup>
+</Project>

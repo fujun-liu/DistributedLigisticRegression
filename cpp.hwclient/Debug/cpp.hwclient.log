@@ -1,0 +1,170 @@
+﻿Build started 12/10/2015 10:23:46 AM.
+     1>Project "E:\parameterServer\DistributedLigisticRegression\cpp.hwclient\cpp.hwclient.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"..\..\ZeroMQ 4.0.4\include" /I"..\..\protobuf-2.6.1\src" /I..\utilities /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\utilities\paras.cpp LogitRegression.cpp run_client.cpp zmqClient.cpp zmqprotobuf.pb.cc
+         zmqprotobuf.pb.cc
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2176): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2157) : see declaration of 'std::_Copy_impl'
+                 e:\parameterserver\protobuf-2.6.1\src\google\protobuf\repeated_field.h(842) : see reference to function template instantiation '_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=google::protobuf::uint64 [],
+                     Element=google::protobuf::uint64,
+                     _InIt=const google::protobuf::uint64 []
+                 ]
+                 e:\parameterserver\protobuf-2.6.1\src\google\protobuf\repeated_field.h(841) : while compiling class template member function 'void google::protobuf::internal::ElementCopier<Element>::operator ()(Element [],const Element [],int)'
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 e:\parameterserver\protobuf-2.6.1\src\google\protobuf\repeated_field.h(834) : see reference to function template instantiation 'void google::protobuf::internal::ElementCopier<Element>::operator ()(Element [],const Element [],int)' being compiled
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 e:\parameterserver\protobuf-2.6.1\src\google\protobuf\repeated_field.h(834) : see reference to class template instantiation 'google::protobuf::internal::ElementCopier<Element>' being compiled
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 e:\parameterserver\protobuf-2.6.1\src\google\protobuf\repeated_field.h(833) : while compiling class template member function 'void google::protobuf::RepeatedField<Element>::CopyArray(Element [],const Element [],int)'
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 e:\parameterserver\protobuf-2.6.1\src\google\protobuf\repeated_field.h(828) : see reference to function template instantiation 'void google::protobuf::RepeatedField<Element>::CopyArray(Element [],const Element [],int)' being compiled
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 e:\parameterserver\protobuf-2.6.1\src\google\protobuf\repeated_field.h(827) : while compiling class template member function 'void google::protobuf::RepeatedField<Element>::MoveArray(Element [],Element [],int)'
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 e:\parameterserver\protobuf-2.6.1\src\google\protobuf\repeated_field.h(814) : see reference to function template instantiation 'void google::protobuf::RepeatedField<Element>::MoveArray(Element [],Element [],int)' being compiled
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 e:\parameterserver\protobuf-2.6.1\src\google\protobuf\repeated_field.h(806) : while compiling class template member function 'void google::protobuf::RepeatedField<Element>::Reserve(int)'
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 e:\parameterserver\protobuf-2.6.1\src\google\protobuf\repeated_field.h(685) : see reference to function template instantiation 'void google::protobuf::RepeatedField<Element>::Reserve(int)' being compiled
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 e:\parameterserver\protobuf-2.6.1\src\google\protobuf\repeated_field.h(631) : while compiling class template member function 'int google::protobuf::RepeatedField<Element>::size(void) const'
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 e:\parameterserver\protobuf-2.6.1\src\google\protobuf\wire_format_lite_inl.h(276) : see reference to function template instantiation 'int google::protobuf::RepeatedField<Element>::size(void) const' being compiled
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 e:\parameterserver\protobuf-2.6.1\src\google\protobuf\wire_format_lite_inl.h(256) : see reference to class template instantiation 'google::protobuf::RepeatedField<Element>' being compiled
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 e:\parameterserver\protobuf-2.6.1\src\google\protobuf\wire_format_lite_inl.h(309) : see reference to function template instantiation 'bool google::protobuf::internal::WireFormatLite::ReadRepeatedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(int,google::protobuf::uint32,google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)' being compiled
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2157) : see declaration of 'std::_Copy_impl'
+         zmqClient.cpp
+         run_client.cpp
+         LogitRegression.cpp
+     1>e:\parameterserver\distributedligisticregression\cpp.hwclient\logitregression.cpp(92): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>e:\parameterserver\distributedligisticregression\cpp.hwclient\logitregression.cpp(177): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\parameterserver\distributedligisticregression\cpp.hwclient\logitregression.cpp(245): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\parameterserver\distributedligisticregression\cpp.hwclient\logitregression.cpp(276): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2761): warning C4996: 'std::_Fill_n': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2747) : see declaration of 'std::_Fill_n'
+                 e:\parameterserver\distributedligisticregression\cpp.hwclient\logitregression.cpp(65) : see reference to function template instantiation '_OutIt std::fill_n<float*,int,int>(_OutIt,_Diff,const _Ty &)' being compiled
+                 with
+                 [
+                     _OutIt=float *,
+                     _Diff=int,
+                     _Ty=int
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2679): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2729) : see reference to function template instantiation '_OutIt std::_Fill_n<_Iter,_Diff,_Ty>(_OutIt,_Diff,const _Ty &)' being compiled
+                 with
+                 [
+                     _OutIt=float *,
+                     _Iter=float *,
+                     _Diff=int,
+                     _Ty=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2751) : see reference to function template instantiation '_OutIt std::_Fill_n1<_OutIt,_Diff,_Ty>(_OutIt,_Diff,const _Ty &,std::random_access_iterator_tag)' being compiled
+                 with
+                 [
+                     _OutIt=float *,
+                     _Diff=int,
+                     _Ty=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2761) : see reference to function template instantiation '_OutIt std::_Fill_n<_OutIt,_Diff,_Ty>(_OutIt,_Diff,const _Ty &,std::false_type)' being compiled
+                 with
+                 [
+                     _OutIt=float *,
+                     _Diff=int,
+                     _Ty=int
+                 ]
+                 e:\parameterserver\distributedligisticregression\cpp.hwclient\logitregression.cpp(65) : see reference to function template instantiation '_OutIt std::fill_n<float*,int,int>(_OutIt,_Diff,const _Ty &)' being compiled
+                 with
+                 [
+                     _OutIt=float *,
+                     _Diff=int,
+                     _Ty=int
+                 ]
+         paras.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\parameterServer\DistributedLigisticRegression\Debug\psClient.exe" /INCREMENTAL /NOLOGO /LIBPATH:"..\..\ZeroMQ 4.0.4\lib" /LIBPATH:"..\..\protobuf-2.6.1\src" "libzmq-v110-mt-4_0_4.lib" libprotobuf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\parameterServer\DistributedLigisticRegression\Debug\psClient.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\parameterServer\DistributedLigisticRegression\Debug\psClient.lib" /MACHINE:X86 Debug\paras.obj
+         Debug\LogitRegression.obj
+         Debug\run_client.obj
+         Debug\zmqClient.obj
+         Debug\zmqprotobuf.pb.obj
+     1>libprotobuf.lib(coded_stream.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(coded_stream.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(common.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(common.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(descriptor.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(descriptor.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(descriptor.pb.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(descriptor.pb.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(descriptor_database.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(descriptor_database.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(dynamic_message.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(dynamic_message.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(extension_set.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(extension_set.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(extension_set_heavy.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(extension_set_heavy.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(generated_message_reflection.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(generated_message_reflection.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(generated_message_util.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(generated_message_util.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(strtod.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(strtod.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(message.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(message.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(message_lite.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(message_lite.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(once.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(once.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(atomicops_internals_x86_msvc.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(atomicops_internals_x86_msvc.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(reflection_ops.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(reflection_ops.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(repeated_field.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(repeated_field.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(structurally_valid.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(structurally_valid.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(strutil.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(strutil.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(substitute.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(substitute.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(text_format.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(text_format.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(tokenizer.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(tokenizer.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(unknown_field_set.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(unknown_field_set.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(wire_format.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(wire_format.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(wire_format_lite.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(wire_format_lite.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(zero_copy_stream.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(zero_copy_stream.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(zero_copy_stream_impl.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(zero_copy_stream_impl.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(zero_copy_stream_impl_lite.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(zero_copy_stream_impl_lite.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+     1>libprotobuf.lib(stringprintf.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'libprotobuf.lib(stringprintf.obj)' or at 'E:\parameterServer\DistributedLigisticRegression\Debug\vc110.pdb'; linking object as if no debug info
+         cpp.hwclient.vcxproj -> E:\parameterServer\DistributedLigisticRegression\Debug\psClient.exe
+     1>Done Building Project "E:\parameterServer\DistributedLigisticRegression\cpp.hwclient\cpp.hwclient.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.02

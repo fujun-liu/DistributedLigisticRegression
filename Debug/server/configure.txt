@@ -1,0 +1,11 @@
+# nodeType server or client
+node_type = server
+
+# set learning rate
+alpha = 1.0
+
+# weight num, number of weights
+weight_num = 24
+
+# learning policy, 0 for basic, 1, decrease learning rate, 2  
+learning_policy = 2

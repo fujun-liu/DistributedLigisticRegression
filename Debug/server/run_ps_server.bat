@@ -1,0 +1,1 @@
+psServer.exe tcp://*:5555 configure.txt

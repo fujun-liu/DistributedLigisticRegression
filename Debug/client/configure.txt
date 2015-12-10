@@ -1,0 +1,15 @@
+# nodeType 1 for server, 2 for client
+node_type = client
+
+# set server port
+server_port = tcp://10.244.13.75:5555
+
+# set data path, NO SPACE is allowed in path string
+feat_path = trainx.bin
+label_path = trainy.bin
+
+# batch size  
+batch_size = 10
+
+# epoches
+epoches = 2
